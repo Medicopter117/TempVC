@@ -1,2 +1,3 @@
 # TempVC
-TempVC from the own bot ManagerX
+
+Emoji müssen selber geaddet werden
