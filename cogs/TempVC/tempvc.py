@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord import option, slash_command
 import ezcord
 
-from backend.configs.vc_db import TempVCDatabase
+from backend import TempVCDatabase
 from ui.emojis import emoji_yes, emoji_no, emoji_settings
 from ui.templates.embeds import ERROR_TITLE, ERROR_COLOR, SUCCESS_COLOR, AUTHOR, FLOOTER
 
