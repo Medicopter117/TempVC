@@ -1,7 +1,10 @@
 # Copyright (c) 2025 OPPRO.NET Network
 from FastCoding import TempVCDatabase
-from FastCoding import discord, commands, option, slash_command, ezcord, SlashCommandGroup
-from FastCoding import emoji_yes, emoji_no, emoji_settings, ERROR_TITLE, ERROR_COLOR, SUCCESS_COLOR, AUTHOR, FLOOTER
+import discord
+from discord.ext import commands
+from discord import option, slash_command, SlashCommandGroup
+import ezcord
+from ui import emoji_yes, emoji_no, emoji_settings, ERROR_TITLE, ERROR_COLOR, SUCCESS_COLOR, AUTHOR, FLOOTER
 
 db = TempVCDatabase()
 
@@ -596,3 +599,4 @@ class TempVC(ezcord.Cog):
 
 def setup(bot):
     bot.add_cog(TempVC(bot))
+
